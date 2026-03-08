@@ -44,9 +44,9 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "start": "react-scripts --max_old_space_size=4096 start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired --max_old_space_size=4096 start",
+    "build": "react-app-rewired --max_old_space_size=4096 build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -68,6 +68,17 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.3"
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.4.3",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
   }
 }
